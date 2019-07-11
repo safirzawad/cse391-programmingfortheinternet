@@ -1,0 +1,96 @@
+body {
+    background-image: url(Website%20Background.jpg);
+    background-attachment: fixed;
+    text-align: left;
+}
+
+@font-face{
+    font-family: "Bebas";
+    src: url(Bebas.ttf);
+}
+@font-face{
+    font-family: "Playfair Display";
+    src: url(Playfair Display.ttf);
+}
+@font-face{
+    font-family: "Roboto";
+    src: url(Roboto.ttf);
+}
+
+span.a {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    font-family: Roboto;
+}
+blockquote{
+    background-color: cadetblue;
+    border-style: solid;
+    padding: 10px;
+    color: black;
+    font-family: Roboto;
+}
+
+h1 {
+    font-family: Bebas;
+    font-size: 400%;
+    color:darkgoldenrod;
+    text-align: center;
+    margin-bottom: 5px;
+}
+h2{
+    border-style: solid;
+    border-color: darkred;
+    background-color: rgba(255, 248, 220, .8);
+    font-family: Playfair Display;
+    padding: 5px;
+    color:darkred;
+}
+img{
+    border-style: solid;
+    border-color: aliceblue;
+}
+p{ 
+    font-family: Roboto;
+    color: antiquewhite;
+    background-color: rgba(145,49,0, 0.5);
+    padding: 3px;
+}
+
+table{
+    font-family: serif;
+    border-collapse: collapse;
+}
+td,th{
+    background-color:darkkhaki;
+    border:1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color:lightgray;
+}
+
+a:link {
+  color:aqua; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightcoral;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
